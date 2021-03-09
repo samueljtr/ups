@@ -1,0 +1,14 @@
+#Ruta de trabajo----
+setwd("~/Proyecto Santana")
+getwd()
+pk <- c("dplyr","readr","ggplot2","googledrive","googlesheets","googlesheets4")
+up <- c(dplyr,readr,ggplot2,googledrive,googlesheets,googlesheets4)
+install.packages(pk)
+#Paquetes----
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(googledrive)
+library(googlesheets)
+library(googlesheets4)
+#x----
